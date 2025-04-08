@@ -1,4 +1,5 @@
-FROM openjdk:17.0.9
+FROM openjdk:17
+FROM mysql:8.0.34-oracle
 
 COPY target/amazon.jar  /usr/app/
 
